@@ -37,10 +37,23 @@ The analysis is being performed with the following technologies:
 
 ## :boom: How to run the application?
 
+- With python3 & virtualenv already installed, we can run:
+
+```shell
+  virtualenv venv
+
+```
+
 - We can activate the virtual environment by running:
 
 ```shell
-  source /venv/bin/activate # Linux or Mac
+  source venv/bin/activate # Linux or Mac
+```
+
+- We can install requirements.txt dependencies:
+
+```shell
+  pip install -r requirements.txt
 ```
 
 - After defining the contents of the lists in the `handle` file `list_1` and `list_2`, we can run:
@@ -55,6 +68,15 @@ We can run it from the root of the project:
 
 ```shell
   python -m unittest discover -s src -v -p "test_*.py"
+```
+
+## 💄 How we can lint app with .pylintrc rules?
+
+- We can run:
+
+```shell
+  pylint src/*.py > lint-exceptions.txt
+
 ```
 
 ### License
