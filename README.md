@@ -70,12 +70,12 @@ We can run it from the root of the project:
   python -m unittest discover -s src -v -p "test_*.py"
 ```
 
-## 💄 How we can lint app with pylint?
+## 💄 How we can lint app with .pylintrc rules?
 
 - We can run:
 
 ```shell
-  virtualenv venv
+  pylint src/*.py > lint-exceptions.txt
 
 ```
 
