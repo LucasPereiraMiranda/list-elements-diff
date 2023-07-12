@@ -1,5 +1,6 @@
-from list_diff import ListDiff
 import unittest
+from list_diff import ListDiff
+
 
 
 class ListDiffTest(unittest.TestCase):
