@@ -5,7 +5,7 @@ from list_diff import ListDiff
 
 class ListDiffTest(unittest.TestCase):
     def test_calculate_diff(self):
-        """Test diff between two lists with sucess"""
+        """Test diff between two lists with success"""
         list_1 = ['1', '2', '3']
         list_2 = ['1', '2']
         expected_diff = ['3']
