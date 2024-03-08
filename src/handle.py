@@ -11,6 +11,10 @@ def handle():
     print('list_2:',list_2)
     print('diff:',result)
 
+    print('list_1 len:', len(list_1))
+    print('list_2 len:', len(list_2))
+    print('diff len:', len(result))
+
 
 if __name__ == '__main__':
     handle()
